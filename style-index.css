@@ -1,0 +1,42 @@
+body {
+    color: #100409;
+    font-family: "Montserrat";
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+header img {
+    width: 500px;
+    height: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f5f1f1;
+    background-color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 6px 15px;
+    margin: 0 4px;
+    border-radius: 15px;
+
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
