@@ -35,3 +35,10 @@ nav a {
     border-radius: 15px;
 
 }
+
+section div {
+
+display: flex;
+
+}
+
