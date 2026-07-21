@@ -5,6 +5,7 @@ body {
     font-family: "Montserrat";
     background-size: cover;
     background-attachment: fixed;
+    text-align: center;
 }
 
 * {
@@ -34,21 +35,28 @@ nav a {
     margin: 0 4px;
     border-radius: 15px;
 
-section div {
-
-display: flex;
-background-color: rgb(209, 209, 209);
-padding: 20px;
-margin: 20px;
-border-radius: 10px;
-font-size: 20px;
-/*tem que arrumar o negocio do titulo da faixa e da imagem, quero que fiquem brancas e os golpes cinza.*/
 }
 
-img {
+section > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(226, 226, 226);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+section > div > article {
+    width: 300px;
+    margin: 10px;
+}
+
+ img {
     width: 95px;
     height:auto;
-    
+   
 }
 
 article {
@@ -57,8 +65,11 @@ background-color: #ffffff;
 padding: 20px;
 margin: 10px;
 border-radius: 10px;
+text-align: center;
+
 
 }
+
 
 .a{
 
@@ -74,7 +85,7 @@ border-radius: 10px;
 
 footer img {
 
-width: 35px;
+width: 30px;
 height: auto;
 
 
@@ -85,4 +96,3 @@ footer {
 text-align: center;
 
 }
-
