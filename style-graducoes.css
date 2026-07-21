@@ -34,11 +34,29 @@ nav a {
     margin: 0 4px;
     border-radius: 15px;
 
-}
-
 section div {
 
 display: flex;
+background-color: rgb(209, 209, 209);
+padding: 20px;
+margin: 20px;
+border-radius: 10px;
+font-size: 20px;
+/*tem que arrumar o negocio do titulo da faixa e da imagem, quero que fiquem brancas e os golpes cinza.*/
+}
+
+img {
+    width: 95px;
+    height:auto;
+    
+}
+
+article {
+
+background-color: #ffffff;
+padding: 20px;
+margin: 10px;
+border-radius: 10px;
 
 }
 
