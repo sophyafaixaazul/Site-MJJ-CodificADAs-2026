@@ -2,9 +2,10 @@
 
 body {
     color: #100409;
-    font-family: "Montserrat";
+    font-family: "Outfit";
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 * {
@@ -16,7 +17,10 @@ body {
 header {
     padding: 20px 0;
     background-color: #ffffff;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 
@@ -25,21 +29,44 @@ header img {
     height: auto;
 }
 
-nav a {
-    text-decoration: none;
-    color: #f5f1f1;
-    background-color: #000000;
-    font-weight: bold;
-    font-size: 16px;
-    padding: 6px 15px;
-    margin: 0 4px;
-    border-radius: 15px;
-
-}
 
 nav a:hover {
     color: #ffffff;
     background-color: #000000;
 }
 
+footer {
+    padding: 20px 0;
+    background-color:#ffffff;
+    text-align: center;
+}
 
+div {
+    background-color: #ffffff;
+    padding: 5px;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ nav a {
+
+
+height: auto;
+font-size: 16px;
+padding: 20px;
+background-color: #000000;
+margin: 40px;
+border-radius: 15px;
+color:#ffffff;
+text-decoration: none;
+font-weight: bold;
+ }
+
+.redes {
+    display: block;
+    text-align: center;
+}
