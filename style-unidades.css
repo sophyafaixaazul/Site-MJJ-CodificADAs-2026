@@ -8,11 +8,6 @@ body {
     text-align: center;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 header {
     padding: 20px 0;
@@ -43,3 +38,14 @@ background-color: #000000;
 padding: 20px;
 
 }
+
+ article{
+
+background-color: rgb(226, 226, 226);
+     width: 80%;
+    max-width: 700px;
+    margin: 25px auto;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 15px;
+ }
