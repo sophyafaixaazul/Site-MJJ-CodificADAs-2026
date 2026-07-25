@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Yuyu+Short&display=swap');
 
+
 body {
     color: #100409;
-    font-family: "Outfit";
+    font-family: "Montserrat";
     background-size: cover;
     background-attachment: fixed;
-    
+    text-align: center;
 }
 
 * {
@@ -17,56 +18,29 @@ body {
 header {
     padding: 20px 0;
     background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+    text-align: center;
 }
-
 
 header img {
     width: 500px;
     height: auto;
 }
 
-
-nav a:hover {
-    color: #ffffff;
+nav a {
+    text-decoration: none;
+    color: #f5f1f1;
     background-color: #000000;
-}
+    font-weight: bold;
+    font-size: 16px;
+    padding: 6px 15px;
+    margin: 0 4px;
+    border-radius: 15px;
 
-footer {
-    padding: 20px 0;
-    background-color:#ffffff;
-    text-align: center;
-}
-
-div {
-    background-color: #ffffff;
-    padding: 5px;
-    display: flex;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-}
 
- nav a {
-
-
-height: auto;
-font-size: 16px;
-padding: 20px;
 background-color: #000000;
-margin: 40px;
-border-radius: 15px;
-color:#ffffff;
-text-decoration: none;
-font-weight: bold;
- }
+padding: 20px;
 
-.redes {
-    display: block;
-    text-align: center;
 }
