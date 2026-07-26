@@ -5,6 +5,7 @@ body {
     font-family: "Montserrat";
     background-size: cover;
     background-attachment: fixed;
+    text-align: center;
 }
 
 * {
@@ -41,4 +42,22 @@ nav {
 background-color: #000000;
 padding: 20px;
 
+}
+
+article {
+
+    background-color:rgb(226, 226, 226);
+      margin: 25px 0;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+  gap: 20px;
+  background-color: rgb(226, 226, 226);
+     width: 80%;
+    max-width: 700px;
+    margin: 25px auto;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 15px;
 }
