@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Yuyu+Short&display=swap');
 
-
 body {
     color: #100409;
     font-family: "Montserrat";
     background-size: cover;
     background-attachment: fixed;
-    text-align: center;
 }
 
 * {
@@ -42,5 +40,29 @@ nav {
 
 background-color: #000000;
 padding: 20px;
+
+}
+
+footer {
+
+    text-align: center;
+
+}
+
+#a{
+
+text-align: center;
+
+}
+
+section article {
+
+background-color:rgba(219, 215, 215, 0.774);
+     width: 80%;
+    max-width: 700px;
+    margin: 25px auto;
+    padding: 15px 20px;
+    border-radius: 15px;
+    text-align: center;
 
 }
