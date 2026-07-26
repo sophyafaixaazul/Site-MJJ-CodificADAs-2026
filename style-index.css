@@ -58,11 +58,22 @@ text-align: center;
 section article {
 
 background-color:rgba(219, 215, 215, 0.774);
-     width: 80%;
+     width: 100%;
     max-width: 700px;
     margin: 25px auto;
     padding: 15px 20px;
     border-radius: 15px;
     text-align: center;
 
+}
+
+
+ article a {
+
+    color: #000000;
+    font-weight: bold;
+ }
+
+ main {
+    margin: 20px;
 }
